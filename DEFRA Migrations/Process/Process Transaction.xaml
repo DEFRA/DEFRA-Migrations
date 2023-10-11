@@ -262,7 +262,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="The Default action will be to leave the source file in it's existing location during a migration&#xA;" DisplayName="Switch" Expression="[strMigrationAction]" sap:VirtualizedContainerService.HintSize="516,625.2" sap2010:WorkflowViewState.IdRef="Switch`1_1">
+            <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="The Default action will be to leave the source file in it's existing location during a migration&#xA;" DisplayName="Switch" Expression="[strMigrationAction]" sap:VirtualizedContainerService.HintSize="497.6,226.4" sap2010:WorkflowViewState.IdRef="Switch`1_1">
               <Switch.Default>
                 <Assign DisplayName="No in progress folder - default to existing location" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_36">
                   <Assign.To>
@@ -705,7 +705,7 @@
                           <av:Size x:Key="ShapeSize">200,68.8</av:Size>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <Sequence DisplayName="Source File Cleanup" sap:VirtualizedContainerService.HintSize="1158,1221.6" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                      <Sequence DisplayName="Source File Cleanup" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_10">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -914,14 +914,14 @@
           <av:PointCollection x:Key="ConnectorLocation">300,323.3 300,366.4</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap2010:Annotation.AnnotationText="Order of precedence:&#xA;1) Queue item meta data of  Target SharePoint and Target Document Library&#xA;2) Orchestrator Assets serve as the backup values if queue item meta data is empty" DisplayName="Set up Migration Environment Variables" sap:VirtualizedContainerService.HintSize="555.2,1233.6" sap2010:WorkflowViewState.IdRef="Sequence_38">
+      <Sequence sap2010:Annotation.AnnotationText="Order of precedence:&#xA;1) Queue item meta data of  Target SharePoint and Target Document Library&#xA;2) Orchestrator Assets serve as the backup values if queue item meta data is empty" DisplayName="Set up Migration Environment Variables" sap:VirtualizedContainerService.HintSize="200,195.6" sap2010:WorkflowViewState.IdRef="Sequence_38">
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">
             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="513.2,59.6" sap2010:WorkflowViewState.IdRef="Assign_35">
+        <Assign sap:VirtualizedContainerService.HintSize="497.6,59.6" sap2010:WorkflowViewState.IdRef="Assign_35">
           <Assign.To>
             <OutArgument x:TypeArguments="x:String">[strSourceType]</OutArgument>
           </Assign.To>
@@ -929,7 +929,7 @@
             <InArgument x:TypeArguments="x:String">[io_Config("MigrationSourceType").ToString]</InArgument>
           </Assign.Value>
         </Assign>
-        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[strSourceType]" sap:VirtualizedContainerService.HintSize="513.2,980.8" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[strSourceType]" sap:VirtualizedContainerService.HintSize="497.6,165.2" sap2010:WorkflowViewState.IdRef="Switch`1_2">
           <Sequence x:Key="Network Drive" sap:VirtualizedContainerService.HintSize="473.2,769.6" sap2010:WorkflowViewState.IdRef="Sequence_42">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
