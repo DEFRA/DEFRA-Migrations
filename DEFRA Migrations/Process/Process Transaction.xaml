@@ -7,11 +7,12 @@
     <x:Property sap2010:Annotation.AnnotationText="Simulate or Migrate" Name="IN_ProcessType" Type="InArgument(x:String)" />
     <x:Property sap2010:Annotation.AnnotationText="Mail Transaction item to be processed. Could be null if the transaction type is a queue item, then IN_QueueTransactionItem will be used instead." Name="in_MailTransactionItem" Type="InArgument(snm:MailMessage)" />
     <x:Property sap2010:Annotation.AnnotationText="Queue Transaction item to be processed. Could be null if the transaction type is a mail item, then in_MailTransactionItem will be used instead." Name="IN_QueueTransactionItem" Type="InArgument(ui:QueueItem)" />
+    <x:Property Name="IN_dictMetaDataConfiguration" Type="InArgument(scg:Dictionary(x:String, x:Object))" />
   </x:Members>
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>896,1732</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>814,1732</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>Process_Transaction_2_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="42">
@@ -313,7 +314,7 @@
                   <av:PointCollection x:Key="ConnectorLocation">470,792 470,842</av:PointCollection>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Upload File to Target" sap:VirtualizedContainerService.HintSize="200,68.8" sap2010:WorkflowViewState.IdRef="Sequence_8">
+              <Sequence DisplayName="Upload File to Target" sap:VirtualizedContainerService.HintSize="1105.6,3842" sap2010:WorkflowViewState.IdRef="Sequence_8">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="x:Boolean" Name="boolFileExists" />
                   <Variable x:TypeArguments="x:Int32" Name="intFileCountIncrement" />
@@ -323,26 +324,26 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <c:Get_Credential DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="955.2,22" IN_strCredentialName="DRACOEDomainAccess" IN_strRequestMessage="Please enter your laptop login credentials. This should be email address for username and your normal password." IN_strRequestTitle="Credentials Required" sap2010:WorkflowViewState.IdRef="Get_Credential_1" OUT_credNetworkCredential="[credADAccount]" />
-                <usa:SharepointApplicationScope AzureApplicationID="{x:Null}" ClientContext="{x:Null}" ClientId="{x:Null}" ClientSecret="{x:Null}" LoginTimeout="{x:Null}" Password="{x:Null}" AzureAppPermissions="None" DisplayName="Sharepoint Application Scope" sap:VirtualizedContainerService.HintSize="955.2,3157.6" sap2010:WorkflowViewState.IdRef="SharepointApplicationScope_1" PlatformType="Online" QueryGrouping="False" ResetCredentials="False" SecurePassword="[credADAccount.SecurePassword]" SharePointInstanceType="Online" URL="[strTargetSharePointSite]" UserName="[credADAccount.username.ToString]">
+                <c:Get_Credential DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="1063.6,22" IN_strCredentialName="DRACOEDomainAccess" IN_strRequestMessage="Please enter your laptop login credentials. This should be email address for username and your normal password." IN_strRequestTitle="Credentials Required" sap2010:WorkflowViewState.IdRef="Get_Credential_1" OUT_credNetworkCredential="[credADAccount]" />
+                <usa:SharepointApplicationScope AzureApplicationID="{x:Null}" ClientContext="{x:Null}" ClientId="{x:Null}" ClientSecret="{x:Null}" LoginTimeout="{x:Null}" Password="{x:Null}" AzureAppPermissions="None" DisplayName="Sharepoint Application Scope" sap:VirtualizedContainerService.HintSize="1063.6,3688" sap2010:WorkflowViewState.IdRef="SharepointApplicationScope_1" PlatformType="Online" QueryGrouping="False" ResetCredentials="False" SecurePassword="[credADAccount.SecurePassword]" SharePointInstanceType="Online" URL="[strTargetSharePointSite]" UserName="[credADAccount.username.ToString]">
                   <usa:SharepointApplicationScope.Body>
                     <ActivityAction x:TypeArguments="us:SharePointContextInfo">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="us:SharePointContextInfo" Name="SharePointContextInfoTag" />
                       </ActivityAction.Argument>
-                      <Sequence sap:VirtualizedContainerService.HintSize="921.2,3015.6" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                      <Sequence sap:VirtualizedContainerService.HintSize="1029.6,3546" sap2010:WorkflowViewState.IdRef="Sequence_32">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="879.2,2923.6" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="987.6,3454" sap2010:WorkflowViewState.IdRef="Sequence_31">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Sequence DisplayName="Sequence - Check if file already exists. Add _x as required if so" sap:VirtualizedContainerService.HintSize="837.2,1388.8" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                          <Sequence DisplayName="Sequence - Check if file already exists. Add _x as required if so" sap:VirtualizedContainerService.HintSize="945.6,1388.8" sap2010:WorkflowViewState.IdRef="Sequence_22">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -472,7 +473,7 @@
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:InterruptibleWhile>
                           </Sequence>
-                          <If Condition="[LEN(strTargetDocLibrary + &quot;/&quot; + strTargetFolderTree + &quot;/&quot; + strFileName) &lt;= 400]" DisplayName="Check SharePoint character limit will not be breached" sap:VirtualizedContainerService.HintSize="837.2,1402.8" sap2010:WorkflowViewState.IdRef="If_6">
+                          <If Condition="[LEN(strTargetDocLibrary + &quot;/&quot; + strTargetFolderTree + &quot;/&quot; + strFileName) &lt;= 400]" DisplayName="Check SharePoint character limit will not be breached" sap:VirtualizedContainerService.HintSize="945.6,1933.2" sap2010:WorkflowViewState.IdRef="If_6">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -480,7 +481,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence sap:VirtualizedContainerService.HintSize="550.8,1242.8" sap2010:WorkflowViewState.IdRef="Sequence_25">
+                              <Sequence sap:VirtualizedContainerService.HintSize="659.2,1773.2" sap2010:WorkflowViewState.IdRef="Sequence_25">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="scg:Dictionary(x:String, x:Object)" Name="dictMetaData" />
                                 </Sequence.Variables>
@@ -489,7 +490,7 @@
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <If Condition="[strTargetFolderTree.Trim &lt;&gt; &quot;&quot;]" sap:VirtualizedContainerService.HintSize="508.8,430.4" sap2010:WorkflowViewState.IdRef="If_11">
+                                <If Condition="[strTargetFolderTree.Trim &lt;&gt; &quot;&quot;]" sap:VirtualizedContainerService.HintSize="617.2,430.4" sap2010:WorkflowViewState.IdRef="If_11">
                                   <If.Then>
                                     <Sequence sap:VirtualizedContainerService.HintSize="310,240" sap2010:WorkflowViewState.IdRef="Sequence_43">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -516,50 +517,146 @@
                                     </Sequence>
                                   </If.Else>
                                 </If>
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="508.8,434.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-                                  <ui:CommentOut.Body>
-                                    <Sequence DisplayName="Ignored Activities - action needed to take variable custom meta data and apply to uploaded file" sap:VirtualizedContainerService.HintSize="473.2,357.2" sap2010:WorkflowViewState.IdRef="Sequence_56">
-                                      <sap:WorkflowViewStateService.ViewState>
-                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                        </scg:Dictionary>
-                                      </sap:WorkflowViewStateService.ViewState>
-                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="431.2,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_13" Text="[Need To create a Loop that will go through Each meta data column, will need target column name And Then the value To be added To it. &#xA;Should all be In the queue As meta data (Or reference which file systme Object meta data To use From the variable list)&#xA;&#xA;so To be clear, it must be able To both use:&#xA;1) the file system Object meta data (already stored In variables)&#xA;2) apply custom meta data - stored In the queue transaction&#xA;&#xA;This Is how To reference the orchestrator meta data value:&#xA;in_TransactionItem.SpecificContent(&quot;CPHH&quot;).ToString]" />
-                                      <ui:MultipleAssign DisplayName="Assign Meta Data Dictionary (CPHH)" sap:VirtualizedContainerService.HintSize="431.2,162.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
-                                        <ui:MultipleAssign.AssignOperations>
-                                          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
-                                            <ui:AssignOperation sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="AssignOperation_33">
-                                              <ui:AssignOperation.To>
-                                                <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[dictMetaData]</OutArgument>
-                                              </ui:AssignOperation.To>
-                                              <ui:AssignOperation.Value>
-                                                <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[New Dictionary(Of String, Object)]</InArgument>
-                                              </ui:AssignOperation.Value>
-                                            </ui:AssignOperation>
-                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_34">
-                                              <ui:AssignOperation.To>
-                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData("CPHH")]</OutArgument>
-                                              </ui:AssignOperation.To>
-                                              <ui:AssignOperation.Value>
-                                                <InArgument x:TypeArguments="x:Object">[strCPHH]</InArgument>
-                                              </ui:AssignOperation.Value>
-                                            </ui:AssignOperation>
-                                            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_35">
-                                              <ui:AssignOperation.To>
-                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData("RBSEnumber")]</OutArgument>
-                                              </ui:AssignOperation.To>
-                                              <ui:AssignOperation.Value>
-                                                <InArgument x:TypeArguments="x:Object">[strRBSE]</InArgument>
-                                              </ui:AssignOperation.Value>
-                                            </ui:AssignOperation>
-                                          </scg:List>
-                                        </ui:MultipleAssign.AssignOperations>
-                                      </ui:MultipleAssign>
-                                    </Sequence>
-                                  </ui:CommentOut.Body>
-                                </ui:CommentOut>
-                                <usal:UploadFile AttachmentsAction="{x:Null}" RelativeUrlHintText="{x:Null}" AllowOperationsOnASPXFiles="False" AllowOverwrite="True" CheckInFileAfterCreation="False" CheckOutFileBeforeOverwrite="False" ChooseFile="True" DisplayName="Upload file" sap:VirtualizedContainerService.HintSize="508.8,103.2" sap2010:WorkflowViewState.IdRef="UploadFile_1" LocalPath="[strSourceInProgressFileLocation]" LocalPathHintText="The current local path of the file" PropertiesToAdd="[dictMetaData]" RelativeUrl="[strItemURL]" ShowAttachFiles="False" ShowCAMLQuery="False" ShowCAMLWarning="False" ShowGroupDescription="False" ShowGroupName="False" ShowLibraryName="False" ShowListName="False" ShowLocalPath="True" ShowMove="False" ShowPermissionDropdown="False" ShowPropertiesDictionary="False" ShowRelativeUrl="True" ShowRename="False" ShowUserName="False" />
-                                <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="508.8,62.4" sap2010:WorkflowViewState.IdRef="WriteLine_4" Text="ADD META DATA HERE" />
+                                <Sequence DisplayName="Set the meta data for this file" sap:VirtualizedContainerService.HintSize="617.2,1067.6" sap2010:WorkflowViewState.IdRef="Sequence_63">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <Assign DisplayName="Create meta data dictionary" sap:VirtualizedContainerService.HintSize="575.2,59.6" sap2010:WorkflowViewState.IdRef="Assign_43">
+                                    <Assign.To>
+                                      <OutArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[dictMetaData]</OutArgument>
+                                    </Assign.To>
+                                    <Assign.Value>
+                                      <InArgument x:TypeArguments="scg:Dictionary(x:String, x:Object)">[New Dictionary(Of String, Object)]</InArgument>
+                                    </Assign.Value>
+                                  </Assign>
+                                  <ui:ForEach x:TypeArguments="scg:KeyValuePair(x:String, x:Object)" CurrentIndex="{x:Null}" DisplayName="For Each Meta Data in Configuration" sap:VirtualizedContainerService.HintSize="575.2,876" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[IN_dictMetaDataConfiguration]">
+                                    <ui:ForEach.Body>
+                                      <ActivityAction x:TypeArguments="scg:KeyValuePair(x:String, x:Object)">
+                                        <ActivityAction.Argument>
+                                          <DelegateInArgument x:TypeArguments="scg:KeyValuePair(x:String, x:Object)" Name="item" />
+                                        </ActivityAction.Argument>
+                                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="539.6,751.2" sap2010:WorkflowViewState.IdRef="Sequence_62">
+                                          <Sequence.Variables>
+                                            <Variable x:TypeArguments="x:String" Name="strKeyName" />
+                                            <Variable x:TypeArguments="x:String" Name="strKeyValue" />
+                                          </Sequence.Variables>
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <Assign DisplayName="Assign Key Name" sap:VirtualizedContainerService.HintSize="497.6,59.6" sap2010:WorkflowViewState.IdRef="Assign_45">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[strKeyName]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">[item.key]</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <Assign DisplayName="Assign Key Value" sap:VirtualizedContainerService.HintSize="497.6,59.6" sap2010:WorkflowViewState.IdRef="Assign_46">
+                                            <Assign.To>
+                                              <OutArgument x:TypeArguments="x:String">[strKeyValue]</OutArgument>
+                                            </Assign.To>
+                                            <Assign.Value>
+                                              <InArgument x:TypeArguments="x:String">[item.Value.ToString]</InArgument>
+                                            </Assign.Value>
+                                          </Assign>
+                                          <Switch x:TypeArguments="x:String" DisplayName="Switch Key variable name with variable value" Expression="[strKeyValue]" sap:VirtualizedContainerService.HintSize="497.6,460" sap2010:WorkflowViewState.IdRef="Switch`1_4">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <Assign x:Key="strFileCreatedBy" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_44">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strFileCreatedBy",strFileCreatedBy)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strLastModifiedDateTime" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_51">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strLastModifiedDateTime",strLastModifiedDateTime)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="dateLastAccessedDateTime" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_52">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("dateLastAccessedDateTime",dateLastAccessedDateTime.ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="dateLastWriteTime" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_53">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("dateLastWriteTime",dateLastAccessedDateTime.ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="dateCreatedDateTime" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_54">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("dateCreatedDateTime",dateLastAccessedDateTime.ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strCustom1" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_55">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strCustom1",IN_QueueTransactionItem.SpecificContent("Custom 1").ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strCustom2" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_56">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strCustom2",IN_QueueTransactionItem.SpecificContent("Custom 2").ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strCustom3" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_57">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strCustom3",IN_QueueTransactionItem.SpecificContent("Custom 3").ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strCustom4" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_58">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strCustom4",IN_QueueTransactionItem.SpecificContent("Custom 4").ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                            <Assign x:Key="strCustom5" DisplayName="Assign Key and Value" sap:VirtualizedContainerService.HintSize="262.4,59.6" sap2010:WorkflowViewState.IdRef="Assign_59">
+                                              <Assign.To>
+                                                <OutArgument x:TypeArguments="x:Object">[dictMetaData(strKeyName)]</OutArgument>
+                                              </Assign.To>
+                                              <Assign.Value>
+                                                <InArgument x:TypeArguments="x:Object">[strKeyValue.Replace("strCustom5",IN_QueueTransactionItem.SpecificContent("Custom 5").ToString)]</InArgument>
+                                              </Assign.Value>
+                                            </Assign>
+                                          </Switch>
+                                        </Sequence>
+                                      </ActivityAction>
+                                    </ui:ForEach.Body>
+                                  </ui:ForEach>
+                                </Sequence>
+                                <usal:UploadFile AttachmentsAction="{x:Null}" RelativeUrlHintText="{x:Null}" AllowOperationsOnASPXFiles="False" AllowOverwrite="True" CheckInFileAfterCreation="False" CheckOutFileBeforeOverwrite="False" ChooseFile="True" DisplayName="Upload file" sap:VirtualizedContainerService.HintSize="617.2,103.2" sap2010:WorkflowViewState.IdRef="UploadFile_1" LocalPath="[strSourceInProgressFileLocation]" LocalPathHintText="The current local path of the file" PropertiesToAdd="[dictMetaData]" RelativeUrl="[strItemURL]" ShowAttachFiles="False" ShowCAMLQuery="False" ShowCAMLWarning="False" ShowGroupDescription="False" ShowGroupName="False" ShowLibraryName="False" ShowListName="False" ShowLocalPath="True" ShowMove="False" ShowPermissionDropdown="False" ShowPropertiesDictionary="False" ShowRelativeUrl="True" ShowRename="False" ShowUserName="False" />
                               </Sequence>
                             </If.Then>
                             <If.Else>
@@ -921,7 +1018,7 @@
             <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Assign sap:VirtualizedContainerService.HintSize="497.6,59.6" sap2010:WorkflowViewState.IdRef="Assign_35">
+        <Assign sap:VirtualizedContainerService.HintSize="513.2,59.6" sap2010:WorkflowViewState.IdRef="Assign_35">
           <Assign.To>
             <OutArgument x:TypeArguments="x:String">[strSourceType]</OutArgument>
           </Assign.To>
@@ -929,7 +1026,7 @@
             <InArgument x:TypeArguments="x:String">[io_Config("MigrationSourceType").ToString]</InArgument>
           </Assign.Value>
         </Assign>
-        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[strSourceType]" sap:VirtualizedContainerService.HintSize="497.6,165.2" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+        <Switch x:TypeArguments="x:String" DisplayName="Switch" Expression="[strSourceType]" sap:VirtualizedContainerService.HintSize="513.2,980.8" sap2010:WorkflowViewState.IdRef="Switch`1_2">
           <Sequence x:Key="Network Drive" sap:VirtualizedContainerService.HintSize="473.2,769.6" sap2010:WorkflowViewState.IdRef="Sequence_42">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
