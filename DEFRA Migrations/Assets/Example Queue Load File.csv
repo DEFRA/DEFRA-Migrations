@@ -1,6 +1,6 @@
-﻿Unique ID,Target SharePoint URL,Target SharePoint Document Library,Target SharePoint Folder,Source File Path,Custom Meta Data Fields can be added here onwards
-1,https://defra.sharepoint.com/sites/Community290,DATemp,,C:\Users\x956633\Downloads\Test1.txt,
-2,https://defra.sharepoint.com/sites/Community290,DATemp,1/,C:\Users\x956633\Downloads\Test2.txt,
-3,https://defra.sharepoint.com/sites/Community290,DATemp,2/,C:\Users\x956633\Downloads\Test3.txt,
-4,https://defra.sharepoint.com/sites/Community290,DATemp,3/,C:\Users\x956633\Downloads\Test4.txt,
-5,https://defra.sharepoint.com/sites/Community290,DATemp,1/2/3/,C:\Users\x956633\Downloads\Test5.txt,
+﻿Unique ID,Target SharePoint URL,Target SharePoint Document Library,Target SharePoint Folder,Source File Path,Custom 1,Custom 2,Custom 3,Custom 4,Custom 5
+1,https://defra.sharepoint.com/sites/Community290,DATemp,,C:\Users\x956633\Downloads\Test1.txt,Test1,Test2,Test3,Test4,Test5
+2,https://defra.sharepoint.com/sites/Community290,DATemp,1/,C:\Users\x956633\Downloads\Test2.txt,Test1,Test2,Test3,Test4,Test5
+3,https://defra.sharepoint.com/sites/Community290,DATemp,2/,C:\Users\x956633\Downloads\Test3.txt,Test1,Test2,Test3,Test4,Test5
+4,https://defra.sharepoint.com/sites/Community290,DATemp,3/,C:\Users\x956633\Downloads\Test4.txt,Test1,Test2,Test3,Test4,Test5
+5,https://defra.sharepoint.com/sites/Community290,DATemp,1/2/3/,C:\Users\x956633\Downloads\Test5.txt,Test1,Test2,Test3,Test4,Test5
