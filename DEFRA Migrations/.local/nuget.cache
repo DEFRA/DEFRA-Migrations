@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PYpdSGL4TKD9RGUVDC3m7HBWfoEd7j6ry9gc5qqcjNXm858pE6Z1KKMTumZGv3zfod5SckElcLCIowPi0vQc/A==",
+  "dgSpecHash": "snEiS1v86S1x0g+XF/rVgSl//26LcI7H67w7+w14KM5XPnrp4gH56u8DQ1Bf/Fl7wuQYH9QTJzOWFckPLI51TA==",
   "success": true,
   "projectFilePath": "C:\\Users\\x956633\\OneDrive - Defra\\UiPath\\DEFRA-Migrations\\DEFRA Migrations\\.local\\",
   "expectedPackageFiles": [
@@ -8,11 +8,12 @@
     "C:\\Users\\x956633\\.nuget\\packages\\avalonedit\\6.0.1\\avalonedit.6.0.1.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\bouncycastle\\1.8.5\\bouncycastle.1.8.5.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\castle.core\\4.3.1\\castle.core.4.3.1.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\closedxml\\0.87.1\\closedxml.0.87.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\closedxml\\0.95.4\\closedxml.0.95.4.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\credentialmanagement\\1.0.2\\credentialmanagement.1.0.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\credentials\\1.0.3\\credentials.1.0.3.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\csvhelper\\16.0.0\\csvhelper.16.0.0.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\documentformat.openxml\\2.5.0\\documentformat.openxml.2.5.0.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\documentformat.openxml\\2.7.2\\documentformat.openxml.2.7.2.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\excelnumberformat\\1.0.10\\excelnumberformat.1.0.10.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\interop.domino.dll\\1.0.0\\interop.domino.dll.1.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\logging\\1.0.10\\logging.1.0.10.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.0\\microsoft.aspnet.signalr.client.2.4.0.nupkg.sha512",
@@ -62,12 +63,13 @@
     "C:\\Users\\x956633\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\microsoft.visualstudio.ole.interop\\16.7.30328.74\\microsoft.visualstudio.ole.interop.16.7.30328.74.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\namedpipewrapper\\1.5.0\\namedpipewrapper.1.5.0.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\nlog\\4.5.11\\nlog.4.5.11.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\npoi\\2.4.1\\npoi.2.4.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\npoi\\2.5.5\\npoi.2.5.5.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\oracle.manageddataaccess\\19.11.0\\oracle.manageddataaccess.19.11.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\polly\\7.1.0\\polly.7.1.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\pop.ups\\1.0.3\\pop.ups.1.0.3.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\restsharp\\106.6.10\\restsharp.106.6.10.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\sharepointpnp.identitymodel.extensions\\1.2.4\\sharepointpnp.identitymodel.extensions.1.2.4.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\sharepointpnpcore2016\\3.12.1908\\sharepointpnpcore2016.3.12.1908.nupkg.sha512",
@@ -78,6 +80,8 @@
     "C:\\Users\\x956633\\.nuget\\packages\\system.data.sqlclient\\4.8.2\\system.data.sqlclient.4.8.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.identitymodel.tokens.jwt\\5.2.4\\system.identitymodel.tokens.jwt.5.2.4.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.io.abstractions\\3.0.10\\system.io.abstractions.3.0.10.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\system.io.filesystem.primitives\\4.0.1\\system.io.filesystem.primitives.4.0.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\system.io.packaging\\4.0.0\\system.io.packaging.4.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.management.automation\\6.1.7601.17515\\system.management.automation.6.1.7601.17515.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
@@ -85,13 +89,13 @@
     "C:\\Users\\x956633\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.resources.extensions\\5.0.0\\system.resources.extensions.5.0.0.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.security.cryptography.algorithms\\4.3.0\\system.security.cryptography.algorithms.4.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.security.cryptography.encoding\\4.3.0\\system.security.cryptography.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.spatial\\5.8.4\\system.spatial.5.8.4.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512",
@@ -103,7 +107,7 @@
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.cefsharpbundle\\1.6.0\\uipath.cefsharpbundle.1.6.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.credentials.activities\\2.0.0\\uipath.credentials.activities.2.0.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.database.activities\\1.6.1\\uipath.database.activities.1.6.1.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\uipath.excel.activities\\2.11.4\\uipath.excel.activities.2.11.4.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\uipath.excel.activities\\2.22.2\\uipath.excel.activities.2.22.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.form.activities\\1.8.0\\uipath.form.activities.1.8.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.formactivitylibrary\\1.8.0\\uipath.formactivitylibrary.1.8.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.formactivitylibrary.contracts\\1.9.2\\uipath.formactivitylibrary.contracts.1.9.2.nupkg.sha512",
@@ -112,14 +116,39 @@
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.ocr.activities\\3.6.2\\uipath.ocr.activities.3.6.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.ocr.contracts\\2.11.0\\uipath.ocr.contracts.2.11.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.persistence.activities\\1.4.0\\uipath.persistence.activities.1.4.0.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\uipath.platform\\22.4.1\\uipath.platform.22.4.1.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\uipath.platform\\23.10.0\\uipath.platform.23.10.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.system.activities\\22.4.5\\uipath.system.activities.22.4.5.nupkg.sha512",
-    "C:\\Users\\x956633\\.nuget\\packages\\uipath.telemetry.client\\1.5.3\\uipath.telemetry.client.1.5.3.nupkg.sha512",
+    "C:\\Users\\x956633\\.nuget\\packages\\uipath.telemetry.client\\1.6.69\\uipath.telemetry.client.1.6.69.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.uiautomation.activities\\22.4.6\\uipath.uiautomation.activities.22.4.6.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.vision\\3.3.0\\uipath.vision.3.3.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipath.webapi.activities\\1.9.2\\uipath.webapi.activities.1.9.2.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\uipathteam.sharepoint.activities\\1.7.0\\uipathteam.sharepoint.activities.1.7.0.nupkg.sha512",
     "C:\\Users\\x956633\\.nuget\\packages\\windowsazure.storage\\7.0.0\\windowsazure.storage.7.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\x956633\\OneDrive - Defra\\UiPath\\DEFRA-Migrations\\DEFRA Migrations\\.local",
+      "message": "Detected package version outside of dependency constraint: Microsoft.Graph 1.9.0 requires Newtonsoft.Json (>= 6.0.1 && < 12.0.0) but version Newtonsoft.Json 13.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    },
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\x956633\\OneDrive - Defra\\UiPath\\DEFRA-Migrations\\DEFRA Migrations\\.local",
+      "message": "Detected package version outside of dependency constraint: Microsoft.Graph.Core 1.9.0 requires Newtonsoft.Json (>= 6.0.1 && < 12.0.0) but version Newtonsoft.Json 13.0.1 was resolved.",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.6.1",
+        ".NETFramework,Version=v4.6.1/win10-x64"
+      ]
+    }
+  ]
 }

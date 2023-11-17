@@ -6,7 +6,7 @@
     "Credentials": "[1.0.3]",
     "Logging": "[1.0.10]",
     "Pop.Ups": "[1.0.3]",
-    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.Excel.Activities": "[2.22.2]",
     "UiPath.Form.Activities": "[1.8.0]",
     "UiPath.FormActivityLibrary": "[1.8.0]",
     "UiPath.Mail.Activities": "[1.8.6]",
