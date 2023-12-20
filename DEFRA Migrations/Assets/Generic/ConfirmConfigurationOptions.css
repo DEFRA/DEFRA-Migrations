@@ -1,0 +1,78 @@
+.btn {
+width: 150px;
+height: 60px;
+padding: 0px;
+}
+
+.btn:hover{
+padding: 0px;
+border: 3px solid white;
+left: -2px;
+top: -2px;
+}
+
+.heading {
+  text-align: left;
+  color: #000000;
+  font-weight: bold;
+}
+
+.body {
+  text-align: left;
+  color: #000000;
+  font-weight: normal;
+}
+
+.logo {
+  display: none;
+}
+
+.process_type {
+  display: none;
+}
+
+.box_yesno {
+  display: none;
+}
+
+.box_continue {
+  display: inline;
+  text-align: right;
+}
+
+.box_ok {
+  display: none;
+}
+
+#ConfigOptionsTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#ConfigOptionsTable td, #ConfigOptionsTable th {
+  border: 1px solid #ddd;
+  padding: 4px;
+  font-size: 14px;
+}
+
+#ConfigOptionsTable tr:hover {background-color: #ddd;}
+
+#ConfigOptionsTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+hr {
+  color: #000000;
+  background-color: #000;
+  height: 2px;
+  margin: 10px 0;
+}
+
+.hrcolumn {
+  background-color: #f2f2f2;
+}
